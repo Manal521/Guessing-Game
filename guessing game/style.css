@@ -1,0 +1,83 @@
+    body {
+        font-family: cursive;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+        padding: 0;
+        background: linear-gradient( #333d79ff, #faebefff, #333d79ff);
+        color: #333d79ff;
+        height: 100vh;
+    }
+    
+    .game-container {
+        text-align: center;
+        justify-content: center;
+        background-color: white;
+        border-radius: 50%;
+        height: 280px;
+        width: 280px;
+        padding: 60px;
+        max-width: 90%;
+        box-shadow: 10px 10px 10px #333d79ff;
+        ;
+    }
+    
+    h1 {
+        font-size: 30px;
+        margin-bottom: -5px;
+    }
+    
+    h1:hover {
+        cursor: pointer;
+        color: white;
+        text-shadow: 5px 5px 30px rgb(0, 9, 63);
+        ;
+    }
+    
+    input {
+        width: 80%;
+        padding: 10px;
+        margin: 10px 0;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        font-size: 14px;
+    }
+    
+    button {
+        background: #333d79ff;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        font-size: 16px;
+        cursor: pointer;
+        border-radius: 20px;
+        width: 100%;
+    }
+    
+    button:hover {
+        background-color: rgb(107, 116, 172);
+        transition: 0.3s;
+    }
+    
+    p:hover {
+        font-style: italic;
+    }
+    
+    .button-container {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        margin-top: 10px;
+    }
+    
+    #checkButton,
+    #restartButton {
+        width: 100px;
+    }
+    
+    @media (min-width: 600px) {
+        button {
+            width: auto;
+        }
+    }
